@@ -1,0 +1,8 @@
+version: : "3.7"
+services:
+  api_ia:
+    container_name: diplomado_api_ia
+    image: api_ia:V0
+    ports:
+    - 51000:1900
+    privileged: true
