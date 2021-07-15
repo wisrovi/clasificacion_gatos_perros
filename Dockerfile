@@ -11,6 +11,6 @@ RUN pip3 install Pillow
 
 COPY src .
 
-CMD ['python3',"./serviceIA.py"]
+CMD ["python3", "./serviceIA.py"]
 
 
